@@ -1,0 +1,29 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello LeetCoder");
+    add(987);
+    }
+
+    static void add(int a){
+
+        int n=a;
+        int sum=0;
+        while(n>0){
+            int remainder =n%10;
+            sum+=remainder;
+            n=n/10;
+        }
+        System.out.println(sum);
+        int totalSum=0;
+        if(sum%10>0){
+        while(sum>0){
+        int remainder =sum%10;
+        totalSum+=remainder;
+        sum=sum/10;
+        }}
+        System.out.println(totalSum);
+
+
+
+    }
+}
